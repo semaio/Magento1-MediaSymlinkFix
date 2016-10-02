@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * This file is part of the Semaio_MediaSymlinkFix module.
+ *
+ * See LICENSE.md bundled with this module for license details.
+ *
+ * @category  Semaio
+ * @package   Semaio_MediaSymlinkFix
+ * @author    semaio GmbH <hello@semaio.com>
+ * @copyright 2016 semaio GmbH (http://www.semaio.com)
+ */
+-->
+<config>
+    <modules>
+        <Semaio_MediaSymlinkFix>
+            <version>1.0.0</version>
+        </Semaio_MediaSymlinkFix>
+    </modules>
+    <global>
+        <helpers>
+            <semaio_mediasymlinkfix>
+                <class>Semaio_MediaSymlinkFix_Helper</class>
+            </semaio_mediasymlinkfix>
+            <cms>
+                <rewrite>
+                    <wysiwyg_images>Semaio_MediaSymlinkFix_Helper_Cms_Wysiwyg_Images</wysiwyg_images>
+                </rewrite>
+            </cms>
+        </helpers>
+    </global>
+</config>

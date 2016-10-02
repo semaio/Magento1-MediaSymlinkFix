@@ -1,0 +1,16 @@
+{
+  "name": "semaio/magento1-mediasymlinkfix",
+  "description": "Fixes a bug in the WYSIWYG editor in the Magento backend if the media directory is a symlink.",
+  "license": "OSL-3.0",
+  "type": "magento-module",
+  "homepage": "https://github.com/semaio/Magento1-MediaSymlinkFix",
+  "suggest": {
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "authors": [
+    {
+      "name": "Rouven Alexander Rieker",
+      "email": "therouv@googlemail.com"
+    }
+  ]
+}
