@@ -1,0 +1,1 @@
+# Magento1-MediaSymlinkFix
