@@ -5,7 +5,7 @@ Fixes a bug in the WYSIWYG editor in the Magento backend if the media directory 
 
 Facts
 -----
-* Version: 0.0.0
+* Version: 1.0.0
 
 Functionality
 -------------
